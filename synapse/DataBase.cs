@@ -75,8 +75,6 @@ namespace synapse
                 if (userGetting.Name == user || userGetting.Email == user  ) {
                     if (userGetting.Pass == pass)
                     {
-                    
-
                         Settings.Default.Email = userGetting.Email;
                         Settings.Default.Save();
                         return true;
