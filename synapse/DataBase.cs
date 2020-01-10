@@ -99,7 +99,7 @@ namespace synapse
                     return true;
                 }
             }
-
+            // No
             createUser(user, email, pass);
             return false;
         }
