@@ -65,6 +65,11 @@ namespace synapse
 
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void timer1_Tick(object snder, EventArgs e)
         {
             tic += 1;
@@ -110,8 +115,8 @@ namespace synapse
                     main.Show();
                 }
                 else {
-
-                    Acceso a = new Acceso();
+                    /* Primera pantalla */
+                    GenerarForm a = new GenerarForm();
                     this.Hide();
                     a.Show();
                 }
